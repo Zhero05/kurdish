@@ -1,0 +1,21 @@
+{
+	"dbConnectionString": "postgres://postgres@localhost:59258/postgres",
+	"geolocation": {
+		"data": {
+			"city": "Erbil",
+			"country": {
+				"code": "IQ",
+				"name": "Iraq"
+			},
+			"subdivision": {
+				"code": "AR",
+				"name": "Erbil Governorate"
+			},
+			"timezone": "Asia/Baghdad",
+			"latitude": 36.1898,
+			"longitude": 44.0157,
+			"postalCode": "44001"
+		},
+		"timestamp": 1793913917407
+	}
+}
