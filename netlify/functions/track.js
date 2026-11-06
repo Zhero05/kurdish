@@ -1,10 +1,11 @@
-import { getStore } from "@netlify/blobs";
+import { connectLambda, getStore } from "@netlify/blobs";
 
 const STORE = "hits";
 const KEY = "list";
 const MAX_HITS = 500;
 
 export const handler = async (event) => {
+  connectLambda(event);
   const store = getStore(STORE);
   const url = new URL(event.rawUrl);
 
